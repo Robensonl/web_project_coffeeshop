@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+}
+
+.page {
+  font-family: "inter", sans-serif;
+  max-width: 1600px;
+  min-width: 1100px;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.content {
+  padding: 0;
+}
