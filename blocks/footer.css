@@ -2,19 +2,13 @@
   box-sizing: border-box;
   background-color: #0a2750;
   color: #ffffff;
-  padding-top: 60px;
-  padding-right: 80px;
-  padding-bottom: 60px;
-  padding-left: 80px;
-  flex-direction: column;
-  gap: 100px;
+  padding: 60px 80px;
 }
 
 .footer__columns {
   display: flex;
   justify-content: space-between;
   gap: 40px;
-  width: auto;
 }
 
 .footer__column {
@@ -25,7 +19,6 @@
 
 .footer__column_content_social {
   margin-left: 80px;
-  gap: 10px;
 }
 
 .footer__logo {
@@ -36,8 +29,7 @@
 .footer__column-heading {
   font-size: 16px;
   font-weight: bold;
-  margin-bottom: 20px;
-  margin-top: 0;
+  margin: 0 0 20px 0;
 }
 
 .footer__list {
@@ -65,7 +57,7 @@
 }
 
 .footer__copyright {
-  text-align: start;
   font-size: 14px;
   margin-top: 100px;
+  text-align: start;
 }
