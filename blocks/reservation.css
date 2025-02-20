@@ -61,8 +61,7 @@
   color: #838383;
 }
 
-/* Estilos para el checkbox */
-.form__checkbox-label {
+*/ .form__checkbox-label {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,7 +79,6 @@
   border-radius: 2px;
 }
 
-/* Estilos para el botón */
 .form__button {
   width: 100%;
   max-width: 386px;

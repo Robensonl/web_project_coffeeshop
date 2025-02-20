@@ -13,21 +13,24 @@
     />
     <meta name="author" content="Robenson Louissaint" />
 
-    <link rel="stylesheet" href="./vendor/normalize.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Noto+Serif:ital@0;1&display=swap"
-    />
-    <link rel="stylesheet" href="./pages/index.css" />
     <title>Cafetería</title>
+    <link rel="stylesheet" href="./pages/index.css" />
     <link
       rel="shortcut icon"
       href="./images/favicon_coffee_bean.ico"
       type="image/x-icon"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
   </head>
   <body>
     <div class="page">
@@ -63,12 +66,16 @@
         />
 
         <div class="header__footer">
-          <p class="header__paragraph">Horario:</p>
-          <p class="header__paragraph">Lunes a Viernes (10:00 - 19:00)</p>
-          <p class="header__paragraph">Sábados y Domingos (11:00 - 18:00)</p>
-          <p class="header__paragraph header__paragraph_address">
-            Avenida del Éxito 200, Ciudad Triple Peaks
-          </p>
+          <div class="header__timetable">
+            <p class="header__paragraph">Horario:</p>
+            <p class="header__paragraph">Lunes a Viernes (10:00 - 19:00)</p>
+            <p class="header__paragraph">Sábados y Domingos (11:00 - 18:00)</p>
+          </div>
+          <div class="header__address">
+            <p class="header__paragraph">
+              Avenida del Éxito 200, Ciudad Triple Peaks
+            </p>
+          </div>
         </div>
       </header>
 
@@ -170,17 +177,17 @@
         </section>
       </main>
 
-      <footer id="footer" class="footer">
-        <div class="footer__columns">
-          <div class="footer__column">
-            <img
-              src="./images/logo_coffeeshop_light.svg"
-              alt="Library Logo"
-              class="footer__logo"
-            />
-          </div>
-          <div class="footer__column footer__column_content_social">
-            <h2 class="footer__column-heading">Redes sociales</h2>
+      <footer class="footer" id="footer">
+        <div class="footer__circle"></div>
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logo de cafeteria"
+            class="footer__logo"
+          />
+
+          <div class="footer__social">
+            <h3 class="footer__social-heading">Redes Sociales</h3>
             <ul class="footer__list">
               <li class="footer__list-item">
                 <a href="#" class="footer__column-link">
@@ -205,7 +212,7 @@
             </ul>
           </div>
         </div>
-        <p class="footer__copyright">&copy; 2024 Robenson L.</p>
+        <p class="footer__copyright">&copy; 2024 Robenson Louissaint</p>
       </footer>
     </div>
   </body>
